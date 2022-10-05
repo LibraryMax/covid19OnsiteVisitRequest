@@ -1,0 +1,149 @@
+.western-header{
+	display: grid;
+	grid-template-areas: "logo display-settings wwu-menu" "logo site-name site-name" "logo western-header-region western-header-region" "main-nav main-nav main-nav";
+	grid-template-columns: 14.75rem auto 1fr;
+	grid-template-rows: 3.41667rem 3.41667rem auto auto;
+	background-color: #003f87;
+}
+
+.western-header .western-logo {
+ position:relative;
+ width:11.75rem;
+ height:10.25rem;
+ margin:auto;
+ padding-right:4rem;
+ grid-area:logo
+}
+
+ .logo {
+  width:10.25rem;
+  height:10.25rem
+ }
+
+.logo .cls-5 {
+    fill: #fff;
+}
+
+.logo .cls-2 {
+    fill: #007ac8;
+}
+
+.dark-mode .block--testimonial,
+.site-footer .menu li a,
+.site-footer .tagline,
+.site-footer a:not([class]),
+.site-footer h4,
+.site-footer h5,
+.site-footer h6,
+.western-header .western-logo .western-home-link,
+.wwu-footer .menu li a,
+.wwu-footer h1,
+.wwu-footer h5,
+.wwu-footer h6 {
+ color:#fff
+}
+
+.logo svg {
+ width:100%;
+ height:100%
+}
+
+.btn-primary {
+	background-color:#003f87;
+}
+
+h2 { 
+	font-size: 24px;
+}
+
+label {
+	margin-right:.5rem;
+}
+
+textarea {
+	resize:none;
+}
+
+.select2-container {
+	display: inherit;
+}
+
+.col{
+	max-width:10%;
+}
+
+tr {
+	text-align:center;
+}
+
+#DAY {
+	background-color:#ff5733;
+}
+
+#EARLY {
+        background-color:#DAF7A6;
+}
+
+#NIGHT {
+        background-color:#FFC300;
+}
+
+#PT\ AM {
+        background-color:#C70039;
+	color:#fff;
+}
+
+#PT\ AM\ {
+        background-color:#C70039;
+        color:#fff;
+}
+
+#PT\ EARLY {
+        background-color:#900C3F;
+	color:#fff;
+}
+
+#PT\ PM{
+	background-color:#581845;
+	color:#fff;
+}
+
+#PT\ PM\ {
+        background-color:#581845;
+        color:#fff;
+}
+
+#PT\ NIGHT{
+	background-color:#bd33ff;
+	color:#fff;
+}
+
+#PT\ NIGHT\ {
+        background-color:#bd33ff;
+        color:#fff;
+}
+
+
+#SWING{
+        background-color: #33dbff;
+}
+
+.required:before {
+	content:" *";
+	color: red;
+}
+
+.dark-mode .block--testimonial,
+.site-footer .menu li a,
+.site-footer .tagline,
+.site-footer a:not([class]),
+.site-footer h4,
+.site-footer h5,
+.site-footer h6,
+.western-header .western-logo .western-home-link,
+.wwu-footer .menu li a,
+.wwu-footer h1,
+.wwu-footer h5,
+.wwu-footer h6 {
+ color:#fff
+}

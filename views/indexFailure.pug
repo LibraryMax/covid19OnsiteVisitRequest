@@ -1,0 +1,41 @@
+html
+	head
+		title="WACOM"
+		link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css')
+		style
+			include style.css		
+	body
+		.section
+			.containers
+				.container(style="padding-bottom:5px;")
+					table
+						tr
+							td
+								img(src="../images/WWU_MakeWaves_Stacked_RGB.png" style="width:75%;")
+							td
+								h2 <strong>W</strong>estern's <strong>A</strong>ccess <strong>C</strong>OVID-19  <strong>O</strong>perations  <strong>M</strong>anagement Solution
+								h1 WACOM
+		.section
+			.containers
+				.container
+					label.warning(style="color:red;") The username or password you entered is incorrect please try again
+					form(action='/submit', method='POST')
+						table
+							tr
+								td
+									label.label Please enter your username: 
+								td
+									input(type= 'text' name='username' placeholder='do not include @wwu.edu')
+							tr
+								td
+									label.label Please enter your password:
+								td
+									input(type='password' name='password')
+						.control
+							button.button.is-primary.btn.btn-primary Login
+
+	footer
+		.section
+			.containers
+				.container
+					<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DBRG3G_i70OwrgDyV_R4_35W4RDYFxxBp_Jk3P0BFBlUOUQ0VTdSMTBVQ01YV0lON1ZRQVlLOE1YOS4u">Western's Access and Covid Operations Management Solution (WACOM) Help Form</a>
